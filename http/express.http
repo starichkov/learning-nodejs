@@ -1,0 +1,17 @@
+GET localhost:3000/hello
+
+###
+
+GET localhost:3000/uuid
+
+###
+
+POST localhost:3000/print
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 47,
+  "name": "Agent",
+  "title": "Hitman"
+}
