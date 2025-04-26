@@ -5,6 +5,7 @@
   "main": "http-server.js",
   "type": "module",
   "scripts": {
+    "start": "node src/express-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vadim Starichkov <starichkovva@gmail.com>",
