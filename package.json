@@ -1,20 +1,23 @@
 {
-  "name": "nodejs-sample-http-server",
+  "name": "learning-nodejs",
   "version": "1.0.0",
-  "description": "Example of Node.js simple HTTP server",
-  "main": "http-server.js",
+  "description": "Learning various aspects of Node.js by examples, with assistance from AI",
   "type": "module",
   "scripts": {
     "start": "node src/express-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vadim Starichkov <starichkovva@gmail.com>",
+  "author": {
+    "name": "Vadim Starichkov",
+    "email": "starichkovva@gmail.com",
+    "url": "https://starichkov.dev"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/starichkov/learning-nodejs.git"
   },
   "dependencies": {
-    "express": "^5.0.1"
+    "express": "^5.1.0"
   }
 }
